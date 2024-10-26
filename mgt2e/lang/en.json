@@ -427,7 +427,11 @@
   "MGT2.Spacecraft.Configuration.dispersed": "Dispersed Structure",
   "MGT2.Spacecraft.Configuration.planetoid": "Planetoid",
   "MGT2.Spacecraft.Configuration.buffered": "Buffered Planetoid",
-
+  "MGT2.Spacecraft.Configuration.standard reinforced": "Standard (Reinforced)",
+  "MGT2.Spacecraft.Configuration.streamlined reinforced": "Streamlined (Reinforced)",
+  "MGT2.Spacecraft.Configuration.sphere reinforced": "Sphere (Reinforced)",
+  "MGT2.Spacecraft.Configuration.close reinforced": "Close Structure (Reinforced)",
+  
   "MGT2.Damage.Okay": "{name} is okay.",
   "MGT2.Damage.Injured": "{name} is injured.",
   "MGT2.Damage.Unconscious": "{name} is unconscious.",
