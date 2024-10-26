@@ -309,7 +309,7 @@ export class MgT2ActorSheet extends ActorSheet {
         } else if (actorData.spacecraft.dtons >= 25000) {
             hits = parseInt(actorData.spacecraft.dtons / 2);
         }
-        if (conf.contains('reinforced')) {
+        if (conf.includes('reinforced')) {
             hits = parseInt(hits*1.1);
         }
         if (hits !== actorData.hits.max) {
