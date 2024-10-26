@@ -302,12 +302,15 @@ export class MgT2ActorSheet extends ActorSheet {
         let dtonsUsed = 0;
         let powerTotal = 0;
         let powerUsed = parseInt(actorData.spacecraft.dtons) * 0.2;
-
+        let conf = context.system.spacecraft.configuration;
         let hits = parseInt(actorData.spacecraft.dtons) / 2.5;
         if (actorData.spacecraft.dtons >= 100000) {
             hits = parseInt(actorData.spacecraft.dtons / 1.5);
         } else if (actorData.spacecraft.dtons >= 25000) {
             hits = parseInt(actorData.spacecraft.dtons / 2);
+        }
+        if (conf.contains('reinforced')) {
+            hits = parseInt(hits*1.1);
         }
         if (hits !== actorData.hits.max) {
             actorData.hits.max = hits;
