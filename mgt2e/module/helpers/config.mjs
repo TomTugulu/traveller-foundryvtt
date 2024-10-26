@@ -72,7 +72,11 @@ MGT2.SHIP_CONFIGURATION = {
   "sphere": { "armour": 0.9, "cost": 1.1, "hull": 1.0, "volume": 1.0, "streamlined": "partial" },
   "close": { "armour": 1.5, "cost": 0.8, "hull": 1.0, "volume": 1.0, "streamlined": "partial" },
   "planetoid": { "armour": 1.0, "cost": 0.08, "hull": 1.25, "volume": 0.8, "streamlined": "no" },
-  "buffered": { "armour": 1.0, "cost": 0.08, "hull": 1.5, "volume": 0.65, "streamlined": "no" }
+  "buffered": { "armour": 1.0, "cost": 0.08, "hull": 1.5, "volume": 0.65, "streamlined": "no" },
+  "standard reinforced":    { "armour": 1.0, "cost": 1.5, "hull": 1.1, "volume": 1.0, "streamlined": "partial" },
+  "streamlined reinforced": { "armour": 1.0, "cost": 1.8, "hull": 1.1, "volume": 1.0, "streamlined": "yes" },
+  "sphere reinforced": { "armour": 0.9, "cost": 1.65, "hull": 1.1, "volume": 1.0, "streamlined": "partial" },
+  "close reinforced": { "armour": 1.5, "cost": 1.2, "hull": 1.1, "volume": 1.0, "streamlined": "partial" },
 };
 
 MGT2.SPACE_RANGES = {
